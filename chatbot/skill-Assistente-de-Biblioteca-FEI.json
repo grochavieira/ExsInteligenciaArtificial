@@ -1,0 +1,1004 @@
+{
+  "intents": [
+    {
+      "intent": "Duvida_Ficha_Catalografica",
+      "examples": [
+        {
+          "text": "Elaborar"
+        },
+        {
+          "text": "ficha"
+        },
+        {
+          "text": "ficha catalografica"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Duvidas_Bibliotecas",
+      "examples": [
+        {
+          "text": "Ajuda"
+        },
+        {
+          "text": "Duvida"
+        },
+        {
+          "text": "duvidas"
+        },
+        {
+          "text": "Eu quero saber"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Duvidas_Bitly",
+      "examples": [
+        {
+          "text": "Bitly"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Duvidas_Combate_Plagio",
+      "examples": [
+        {
+          "text": "Combate ao plágio"
+        },
+        {
+          "text": "Plágio"
+        },
+        {
+          "text": "Saiba mais"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Duvidas_Entregas_Trabalhos",
+      "examples": [
+        {
+          "text": "Entrega de projeto"
+        },
+        {
+          "text": "Entrega de trabalho"
+        },
+        {
+          "text": "entregas"
+        },
+        {
+          "text": "procedimento de entrega"
+        },
+        {
+          "text": "procedimentos"
+        },
+        {
+          "text": "Termos"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Duvidas_Guia_Elaboração_Trabalho",
+      "examples": [
+        {
+          "text": "elaboração de trabalhos"
+        },
+        {
+          "text": "elaboração de trabalhos acadêmicos"
+        },
+        {
+          "text": "Guia de elaboração"
+        },
+        {
+          "text": "tutoriais"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Duvidas_Latex",
+      "examples": [
+        {
+          "text": "Classe Latex"
+        },
+        {
+          "text": "Latex"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Duvidas_Mecanismo_Referencia",
+      "examples": [
+        {
+          "text": "Mecanismo Online para Referências"
+        },
+        {
+          "text": "Mecanismo para Referências"
+        },
+        {
+          "text": "Referências"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Duvidas_Mendeley",
+      "examples": [
+        {
+          "text": "Mendeley"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Duvidas_Normalização_Trabalhos",
+      "examples": [
+        {
+          "text": "Normalização"
+        },
+        {
+          "text": "Normalização de trabalhos academicos"
+        },
+        {
+          "text": "orientação para normalização"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Duvidas_Reforma_Ortografica",
+      "examples": [
+        {
+          "text": "Guia da nova reforma ortográfica"
+        },
+        {
+          "text": "nova reforma ortográfica"
+        },
+        {
+          "text": "Reforma ortográfica"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Detectar_Plagio",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Detectar plagio",
+          "synonyms": [
+            "detectar",
+            "encontrar"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Elaborar_Ficha_Catalografica",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Elaborar ficha catalografica",
+          "synonyms": [
+            "Criar",
+            "Elaborar",
+            "Fazer"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Ficha_Catalografica",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "O que é ficha catalográfica",
+          "synonyms": [
+            "Ficha Catalográfica",
+            "O que é",
+            "Para que serve"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Guias_Trabalhos_Academicos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Guias",
+          "synonyms": [
+            "citação",
+            "estrutura",
+            "guia",
+            "referencias"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Procedimento_Entrega",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "procedimento de entrega",
+          "synonyms": [
+            "procedimento",
+            "procedimentos"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Saiba_Mais_Plagio",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Saiba mais sobre plagio",
+          "synonyms": [
+            "plagio",
+            "saiba mais"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Sugestao_Ficha_Catalografica",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Sugestão para ficha catalografica",
+          "synonyms": [
+            "Ideia",
+            "sugestão"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Termos_Entregas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Termos de Entrega de Projetos",
+          "synonyms": [
+            "Termos"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Tutoriais_Templates",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "tutoriais e templates",
+          "synonyms": [
+            "template",
+            "templates",
+            "tutoriais",
+            "tutorial"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá. Como posso te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_10_1614816752760",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A biblioteca da FEI disponibiliza para seus usuários o sistema para elaboração de fichas catalográficas que foi desenvolvido pelo ICMC/USP e gentilmente cedido para ser adaptado às necessidades de sua comunidade acadêmica.\n\nA partir de outubro de 2015 a ficha catalográfica passa a ser elaborada pelo próprio usuário e deve ser impressa no verso da página/folha de rosto.\n\nÉ um elemento obrigatório em trabalhos acadêmicos e sua elaboração é feita com as informações fundamentais para a identificação do documento, entre elas: autor e orientador, título, total de folhas, assunto, palavras-chave, etc."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1614803921859",
+      "conditions": "@Ficha_Catalografica",
+      "dialog_node": "node_10_1614805702250",
+      "previous_sibling": "node_1_1614806066059"
+    },
+    {
+      "type": "standard",
+      "title": "Guia da nova reforma ortográfica",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ortografia brasileira.\n."
+              },
+              {
+                "text": "https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/guia_reforma_ortografica_cp.pdf"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Duvidas_Reforma_Ortografica",
+      "dialog_node": "node_10_1614816752760",
+      "previous_sibling": "node_1_1614816754448"
+    },
+    {
+      "type": "standard",
+      "title": "Ficha Catalográfica",
+      "output": {
+        "generic": [
+          {
+            "title": "Escolha uma das opções:",
+            "options": [
+              {
+                "label": "Elaborar ficha catalográfica",
+                "value": {
+                  "input": {
+                    "text": "Elaborar"
+                  }
+                }
+              },
+              {
+                "label": "O que é ficha catalográfica",
+                "value": {
+                  "input": {
+                    "text": "O que é"
+                  }
+                }
+              },
+              {
+                "label": "Sugestão para ficha catalográfica",
+                "value": {
+                  "input": {
+                    "text": "Sugestão"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Duvida_Ficha_Catalografica",
+      "dialog_node": "node_1_1614803921859",
+      "previous_sibling": "node_4_1614802294460"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Clique neste link para elaborar sua ficha catalográfica:"
+              },
+              {
+                "text": "http://sofia.fei.edu.br/ficha/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1614803921859",
+      "conditions": "@Elaborar_Ficha_Catalografica",
+      "dialog_node": "node_1_1614806066059",
+      "previous_sibling": "response_10_1614806552954"
+    },
+    {
+      "type": "standard",
+      "title": "Saber mais sobre plagio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A biblioteca do Centro Universitário FEI, por recomendação da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES), divulga ao seu público um texto informativo, com intuito de coibir o plágio nas produções acadêmicas desenvolvidas na IES.\n."
+              },
+              {
+                "text": "Saiba mais sobre o plágio clicando neste link:\nhttps://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/imagens/biblioteca/novembro/plagio.pdf"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1614804706570",
+      "conditions": "@Saiba_Mais_Plagio",
+      "dialog_node": "node_1_1614808340952",
+      "previous_sibling": "node_4_1614808339335"
+    },
+    {
+      "type": "standard",
+      "title": "Bitly",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Duvidas Sobre Bitly\n."
+              },
+              {
+                "text": "https://bitly.com/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Duvidas_Bitly",
+      "dialog_node": "node_1_1614816754448",
+      "previous_sibling": "node_2_1614816755927"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mande sua sugestão para este Email:"
+              },
+              {
+                "text": "bib_digital@fei.edu.br"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1614803921859",
+      "conditions": "@Sugestao_Ficha_Catalografica",
+      "dialog_node": "node_2_1614806126967",
+      "previous_sibling": "node_10_1614805702250"
+    },
+    {
+      "type": "standard",
+      "title": "Mendeley",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O Mendeley é considerado uma rede social acadêmica que conecta pesquisadores e permite gerenciar referências, buscar, arquivar e compartilhar documentos.\nAcessar o mendeley:\n."
+              },
+              {
+                "text": "https://www.mendeley.com/reference-management/reference-manager"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Duvidas_Mendeley",
+      "dialog_node": "node_2_1614816755927",
+      "previous_sibling": "node_5_1614816757263"
+    },
+    {
+      "type": "standard",
+      "title": "Procedimentos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os trabalhos acadêmicos devem ser entregues de acordo com os procedimentos da secretaria do curso. Cabe ao orientador, juntamente com a secretaria, definir quais trabalhos serão entregues, assim como, efetuar a entrega na biblioteca.\n."
+              },
+              {
+                "text": "a) o trabalho acadêmico deve ser normalizado de acordo com as orientações do Guia para Elaboração de Trabalhos Acadêmicos da FEI;\n"
+              },
+              {
+                "text": "b) uma cópia impressa em capa dura na cor preta e letras douradas b) uma cópia impressa em capa dura na cor preta e letras douradas\n- uma mídia (CD ou DVD) contendo somente o PDF/A para as monografias e TCCs;\n- uma cópia da versão final da dissertação ou tese no formato PDF/A encaminhada para o e-mail: bib.dissertacoes_teses@fei.edu.br;\n- termo de autorização para a publicação eletrônica preenchido e assinado por todos os autores do trabalho;\n."
+              },
+              {
+                "text": "c) a entrega na biblioteca deverá ser feita pelo orientador ou pela secretaria do curso. A biblioteca não aceita trabalhos entregues diretamente pelos alunos.\n."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1614804703630",
+      "conditions": "@Procedimento_Entrega",
+      "dialog_node": "node_3_1614807588954"
+    },
+    {
+      "type": "standard",
+      "title": "Guia para elaboração de trabalhos acadêmicos da FEI",
+      "output": {
+        "generic": [
+          {
+            "title": "Escolha uma das opções: ",
+            "options": [
+              {
+                "label": "Guias para elaborar trabalhos academicos",
+                "value": {
+                  "input": {
+                    "text": "guias"
+                  }
+                }
+              },
+              {
+                "label": "Tutoriais e templates",
+                "value": {
+                  "input": {
+                    "text": "tutoriais"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Duvidas_Guia_Elaboração_Trabalho",
+      "dialog_node": "node_3_1614816759943",
+      "previous_sibling": "node_7_1614816743872"
+    },
+    {
+      "type": "standard",
+      "title": "Duvidas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sobre qual assunto você tem duvida?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Duvidas_Bibliotecas",
+      "dialog_node": "node_4_1614802294460",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Procedimento de Entrega",
+      "output": {
+        "generic": [
+          {
+            "title": "O que você deseja saber:",
+            "options": [
+              {
+                "label": "Procedimentos de entrega",
+                "value": {
+                  "input": {
+                    "text": "Procedimentos"
+                  }
+                }
+              },
+              {
+                "label": "Termos de autorização",
+                "value": {
+                  "input": {
+                    "text": "Termos"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Duvidas_Entregas_Trabalhos",
+      "dialog_node": "node_4_1614804703630",
+      "previous_sibling": "node_1_1614803921859"
+    },
+    {
+      "type": "standard",
+      "title": "Detectar Plagio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Farejador de Plágio\n\nSite: http://www.plagiarismcombat.com/\n."
+              },
+              {
+                "text": "Plagium\n\nSite: http://www.plagium.com/\n."
+              },
+              {
+                "text": "Plagiarisma\n\nSite: http://plagiarisma.net/\n."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1614804706570",
+      "conditions": "@Detectar_Plagio",
+      "dialog_node": "node_4_1614808339335"
+    },
+    {
+      "type": "standard",
+      "title": "Mecanismo Online para Referências (MORE)",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "MORE é uma ferramenta gratuita e fácil de usar, que produz automaticamente citações no texto e referências no formato ABNT.\nLink para acessar o MORE:\n."
+              },
+              {
+                "text": "http://www.more.ufsc.br/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Duvidas_Mecanismo_Referencia",
+      "dialog_node": "node_5_1614816757263",
+      "previous_sibling": "node_6_1614816758663"
+    },
+    {
+      "type": "standard",
+      "title": "Combate ao Plágio",
+      "output": {
+        "generic": [
+          {
+            "title": "O que você quer fazer:",
+            "options": [
+              {
+                "label": "Detectar plágio",
+                "value": {
+                  "input": {
+                    "text": "Detectar"
+                  }
+                }
+              },
+              {
+                "label": "Saiba mais sobre plágio",
+                "value": {
+                  "input": {
+                    "text": "Saiba mais"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Duvidas_Combate_Plagio",
+      "dialog_node": "node_6_1614804706570",
+      "previous_sibling": "node_4_1614804703630"
+    },
+    {
+      "type": "standard",
+      "title": "Classe LaTeX da FEI",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A classe LaTeX da FEI é um arquivo de formatação de trabalhos acadêmicos para usuários de LaTeX, de acordo com as normas de formatação do Centro Universitário FEI. Ela está disponível nas principais distribuições de LaTeX (MikTeX no Windows, MacTeX no MacOS e TeX Live no Linux), possui um manual de utilização em PDF e um template para ajudar usuários a iniciar seus trabalhos acadêmicos.\nLink do manual:\n."
+              },
+              {
+                "text": "http://mirrors.ctan.org/macros/latex/contrib/fei/fei.pdf\n."
+              },
+              {
+                "text": "A classe também possui um site e um grupo no Google com dicas para usuários. O projeto de código aberto é mantido no GitHub, tendo como desenvolvedor principal Douglas De Rizzo Meneghetti.\nLink do site: \n."
+              },
+              {
+                "text": "http://douglasrizzo.com.br/Classe-Latex-FEI/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Duvidas_Latex",
+      "dialog_node": "node_6_1614816758663",
+      "previous_sibling": "node_3_1614816759943"
+    },
+    {
+      "type": "standard",
+      "title": "Tutoriais",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A biblioteca disponibiliza os tutoriais de configuração do Word e uma template do trabalho pronto, mais um recurso para ajudá-lo na estruturação do TCC.\n."
+              },
+              {
+                "text": "Template do trabalho acadêmico: https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/template.docx\n."
+              },
+              {
+                "text": "Template dos trabalhos de iniciação científica: https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/templateiniciacaocientifica.docx\n."
+              },
+              {
+                "text": "Template do plano de negócios elaborado para o curso de administração: https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/templateplanodenegocios.docx\n."
+              },
+              {
+                "text": "Tutorial de paginação: https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/paginacao.pdf\n."
+              },
+              {
+                "text": "Tutorial de sumário: https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/sumario.pdf\n."
+              },
+              {
+                "text": "Tutorial de lista de ilustrações: https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/ilustracoes.pdf\n."
+              },
+              {
+                "text": "Tutorial de lista de tabelas: https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/tabelas.pdf\n."
+              },
+              {
+                "text": "Tutorial para salvar arquivo como PDF/A: https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/conversorpdf.pdf\n."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1614816759943",
+      "conditions": "@Tutoriais_Templates",
+      "dialog_node": "node_6_1614817431334",
+      "previous_sibling": "node_9_1614817424519"
+    },
+    {
+      "type": "standard",
+      "title": "Orientação para normalização de trabalhos acadêmicos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Para tirar duvidas sobre orientações de normalização de trabalhos acadêmicos acesse:"
+              },
+              {
+                "text": ".\nhttps://docs.google.com/forms/d/1HMTDr5U_1Dp8pVBV7WhXVrm7ULJyRAT99Ey6DSPZ3Fo/edit"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Duvidas_Normalização_Trabalhos",
+      "dialog_node": "node_7_1614816743872",
+      "previous_sibling": "node_6_1614804706570"
+    },
+    {
+      "type": "standard",
+      "title": "Termos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Termo de autorização para divulgação de artigo de periódico e sua disponibilização gratuita ao público(artigo de periódico em grupo).\n\nhttps://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/final/autorizacao_grupo.docx\n."
+              },
+              {
+                "text": "Termo de autorização para divulgação de artigo de periódico e sua disponibilização gratuita ao público(artigo de periódico individual).\n\nhttps://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/final/autorizacao_individual.docx\n."
+              },
+              {
+                "text": "Termo de autorização para divulgação do texto de tese, dissertação ou monografia e sua disponibilização ao público (Em grupo).\n\nhttps://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/final/autorizacao_tcc.docx\n."
+              },
+              {
+                "text": "Termo de autorização para divulgação do texto de tese, dissertação ou monografia e sua disponibilização ao público (Individual).\n\nhttps://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/final/autorizacao_tese.docx\n."
+              },
+              {
+                "text": "Termo de encaminhamento de dissertação/tese.\n\nhttps://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/final/termo_de_encaminhamento_biblioteca.docx\n."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_4_1614804703630",
+      "conditions": "@Termos_Entregas",
+      "dialog_node": "node_9_1614807813537",
+      "previous_sibling": "node_3_1614807588954"
+    },
+    {
+      "type": "standard",
+      "title": "Guias",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Citações: https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/vestibular/22020/citacao_rev-2020.pdf\n."
+              },
+              {
+                "text": "Estruturas: https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/imagens/biblioteca/ta/estrutura_2020.pdf\n."
+              },
+              {
+                "text": "Referencias: https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/imagens/biblioteca/ta/referencias_2020.pdf\n."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_3_1614816759943",
+      "conditions": "@Guias_Trabalhos_Academicos",
+      "dialog_node": "node_9_1614817424519"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dúvidas e sugestões podem ser enviadas através do email:"
+              },
+              {
+                "text": "bib_digital@fei.edu.br"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1614803921859",
+      "disabled": true,
+      "conditions": "@Sugestao_Ficha_Catalografica",
+      "dialog_node": "response_10_1614806552954",
+      "previous_sibling": "response_7_1614806535729"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Clique neste link para elaborar uma ficha catalográfica"
+              },
+              {
+                "text": "http://sofia.fei.edu.br/ficha/"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_1_1614803921859",
+      "disabled": true,
+      "conditions": "@Elaborar_Ficha_Catalografica",
+      "dialog_node": "response_7_1614806294087"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A biblioteca da FEI disponibiliza para seus usuários o sistema para elaboração de fichas catalográficas que foi desenvolvido pelo ICMC/USP e gentilmente cedido para ser adaptado às necessidades de sua comunidade acadêmica.\n\nA partir de outubro de 2015 a ficha catalográfica passa a ser elaborada pelo próprio usuário e deve ser impressa no verso da página/folha de rosto.\n\nÉ um elemento obrigatório em trabalhos acadêmicos e sua elaboração é feita com as informações fundamentais para a identificação do documento, entre elas: autor e orientador, título, total de folhas, assunto, palavras-chave, etc."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1614803921859",
+      "disabled": true,
+      "conditions": "@Ficha_Catalografica",
+      "dialog_node": "response_7_1614806535729",
+      "previous_sibling": "response_7_1614806294087"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Assistente de Biblioteca FEI",
+  "language": "pt-br",
+  "description": ""
+}
