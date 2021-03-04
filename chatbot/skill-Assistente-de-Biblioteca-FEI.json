@@ -7,10 +7,16 @@
           "text": "Elaborar"
         },
         {
+          "text": "Elaborar Ficha Catalografica"
+        },
+        {
           "text": "ficha"
         },
         {
           "text": "ficha catalografica"
+        },
+        {
+          "text": "Quero saber como fazer uma ficha catalografica"
         }
       ],
       "description": ""
@@ -37,7 +43,16 @@
       "intent": "Duvidas_Bitly",
       "examples": [
         {
+          "text": "acessar o bitly"
+        },
+        {
           "text": "Bitly"
+        },
+        {
+          "text": "o que é bitly"
+        },
+        {
+          "text": "Quero saber mais sobre bitly"
         }
       ],
       "description": ""
@@ -52,7 +67,7 @@
           "text": "Plágio"
         },
         {
-          "text": "Saiba mais"
+          "text": "quero saber sobre plagio"
         }
       ],
       "description": ""
@@ -106,7 +121,16 @@
           "text": "Classe Latex"
         },
         {
+          "text": "como usar latex"
+        },
+        {
           "text": "Latex"
+        },
+        {
+          "text": "o que é latex"
+        },
+        {
+          "text": "Quero saber sobre latex"
         }
       ],
       "description": ""
@@ -115,10 +139,16 @@
       "intent": "Duvidas_Mecanismo_Referencia",
       "examples": [
         {
+          "text": "Mecanismo de referencia"
+        },
+        {
           "text": "Mecanismo Online para Referências"
         },
         {
           "text": "Mecanismo para Referências"
+        },
+        {
+          "text": "MORE"
         },
         {
           "text": "Referências"
@@ -131,6 +161,15 @@
       "examples": [
         {
           "text": "Mendeley"
+        },
+        {
+          "text": "o que é mendeley"
+        },
+        {
+          "text": "Quero saber sobre mendeley"
+        },
+        {
+          "text": "tenho duvidas sobre mendeley"
         }
       ],
       "description": ""
@@ -145,7 +184,16 @@
           "text": "Normalização de trabalhos academicos"
         },
         {
+          "text": "Orientação"
+        },
+        {
+          "text": "Orientação de trabalho"
+        },
+        {
           "text": "orientação para normalização"
+        },
+        {
+          "text": "Orientação para trabalhos"
         }
       ],
       "description": ""
@@ -158,6 +206,9 @@
         },
         {
           "text": "nova reforma ortográfica"
+        },
+        {
+          "text": "ortografia"
         },
         {
           "text": "Reforma ortográfica"
@@ -336,10 +387,10 @@
                 "text": "Eu não entendi. Você pode tentar reformular a frase."
               },
               {
-                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+                "text": "Não entendi, eu consigo te ajudar nos seguintes assuntos:\n- Ficha Catalográfica\n- Procedimento de Entrega\n- Combate ao Plágio\n- Normalização de trabalhos academicos\n- Elaboração de trabalhos acadêmicos\n- Latex\n- Mecanismo de Referências\n- Mendeley\n- Bitly\n- Reforma Ortografica"
               },
               {
-                "text": "Eu não entendi o sentido."
+                "text": "Ainda não entendi o que você deseja."
               }
             ],
             "response_type": "text",
@@ -380,7 +431,7 @@
           {
             "values": [
               {
-                "text": "ortografia brasileira.\n."
+                "text": "Saiba o que mudou na ortografia brasileira: \n."
               },
               {
                 "text": "https://gerenciador.fei.edu.br/Content/Arquivos/Template/junho2017/Themes/Resources/docs/biblioteca/guia_reforma_ortografica_cp.pdf"
@@ -496,7 +547,7 @@
           {
             "values": [
               {
-                "text": "Duvidas Sobre Bitly\n."
+                "text": "bitly é um dos mais famosos gerenciadores e encurtadores de URL da internet\nLink para acessar o bitly: \n."
               },
               {
                 "text": "https://bitly.com/"
@@ -628,10 +679,13 @@
             "values": [
               {
                 "text": "Sobre qual assunto você tem duvida?"
+              },
+              {
+                "text": "- Ficha Catalográfica\n- Procedimento de Entrega\n- Combate ao Plágio\n- Normalização de trabalhos academicos\n- Elaboração de trabalhos acadêmicos\n- Latex\n- Mecanismo de Referências\n- Mendeley\n- Bitly\n- Reforma Ortografica"
               }
             ],
             "response_type": "text",
-            "selection_policy": "sequential"
+            "selection_policy": "multiline"
           }
         ]
       },
